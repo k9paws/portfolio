@@ -1,73 +1,76 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Gary Rosen Portfolio</title>
 
-    <!-- LINK TO STYLE SHEETS -->
-    <link rel="stylesheet" href="./dist/css/style.css" />
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Gary Rosen Portfolio</title>
 
-    <!-- Link to Devicon -->
-    <link
-      rel="stylesheet"
-      href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.11.0/devicon.min.css"
-    />
-    <!-- LINK TO FONT AWESOME -->
-    <script
-      src="https://kit.fontawesome.com/f0fb90360e.js"
-      crossorigin="anonymous"
-    ></script>
+  <!-- LINK TO STYLE SHEETS -->
+  <link rel="stylesheet" href="./styles/sass/style.css" />
 
-    <!-- Link to AOS Scroll Library -->
-    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
-  </head>
+  <!-- Link to Devicon -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.11.0/devicon.min.css" />
+  <!-- LINK TO FONT AWESOME -->
+  <script src="https://kit.fontawesome.com/f0fb90360e.js" crossorigin="anonymous"></script>
 
-  <body>
-    <!-- HEADER -->
-    <header>
-      <!-- HAMBURGER MENU: Tutorial by Traversy Media-->
-      <div class="menu-wrap">
-        <input type="checkbox" class="toggler" />
-        <div class="hamburger">
-          <div></div>
-        </div>
-        <div class="menu">
+  <!-- Link to Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&family=Montserrat:wght@100;200;300;400;500;600;800&family=Otomanopee+One&display=swap"
+    rel="stylesheet">
+
+  <!-- Link to AOS Scroll Library -->
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+</head>
+
+<body>
+  <!-- HEADER -->
+  <header>
+
+<!-- HAMBURGER MENU -->
+    <div class="menu-wrap">
+      <input type="checkbox" class="toggler" />
+      <div class="hamburger">
+        <div></div>
+      </div>
+      <div class="menu">
+        <div>
           <div>
-            <div>
-              <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="#about">About</a></li>
-                <li><a href="#skill">Skills</a></li>
-                <li><a href="#projects">Projects</a></li>
-                <li><a href="#contact">Contact</a></li>
-              </ul>
-            </div>
+            <ul>
+              <li><a href="index.html">Home</a></li>
+              <li><a href="#about">About</a></li>
+              <li><a href="#skill">Skills</a></li>
+              <li><a href="#projects">Projects</a></li>
+              <li><a href="#contact">Contact</a></li>
+            </ul>
           </div>
         </div>
       </div>
-      <!-- END OF HAMBURGER MENU -->
+    </div>
+    <!-- END OF HAMBURGER MENU -->
 
-      <div class="header-home wrapper">
-        <nav class="header-navbar">
-          <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="#about">About</a></li>
-            <li><a href="#skill">Skills</a></li>
-            <li><a href="#projects">Projects</a></li>
-            <li><a href="#contact">Contact</a></li>
-          </ul>
-        </nav>
-      </div>
+    <div class="header-home wrapper">
+      <nav class="header-navbar">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#skill">Skills</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
 
-      <h1>Gary Rosen</h1>
-      <h2>Front End Developer</h2>
-    </header>
+    <h1>Gary Rosen</h1>
+    <h2>Front End Developer</h2>
+  </header>
 
-    <!-- About Section -->
-    <section class="about" id="about">
-        <div class="wrapper">
+  <!-- About Section -->
+  <section class="about" id="about">
+    <div class="wrapper">
       <h2>About</h2>
 
       <p>
@@ -79,264 +82,254 @@
         deleniti.
       </p>
     </div>
-    </section>
+  </section>
 
-    <!-- Skills Section -->
-    <section class="skill" id="skill">
-        <div class="wrapper">
+  <!-- Skills Section -->
+  <section class="skill" id="skill">
+    <div class="wrapper">
       <h2>Skills</h2>
 
       <ul class="skill-list">
         <li class="skill-name">
-          <i
-            class="devicon-html5-plain skill-icon"
-            title="HTML5"
-            aria-hidden="true"
-          ></i>
+          <i class="devicon-html5-plain skill-icon" title="HTML5" aria-hidden="true"></i>
           <p>HTML5</p>
         </li>
         <li class="skill-name">
-          <i
-            class="devicon-css3-plain skill-icon"
-            title="CSS3"
-            aria-hidden="true"
-          ></i>
+          <i class="devicon-css3-plain skill-icon" title="CSS3" aria-hidden="true"></i>
           <p>CSS3</p>
         </li>
         <li class="skill-name">
-          <i
-            class="devicon-sass-original skill-icon"
-            title="SASS"
-            aria-hidden="true"
-          ></i>
+          <i class="devicon-sass-original skill-icon" title="SASS" aria-hidden="true"></i>
           <p>SASS</p>
         </li>
         <li class="skill-name">
-          <i
-            class="devicon-javascript-plain skill-icon"
-            title="JavaScript"
-            aria-hidden="true"
-          ></i>
+          <i class="devicon-javascript-plain skill-icon" title="JavaScript" aria-hidden="true"></i>
           <p>JavaScript</p>
         </li>
         <li class="skill-name">
-          <i
-            class="devicon-jquery-plain skill-icon"
-            title="jQuery"
-            aria-hidden="true"
-          ></i>
+          <i class="devicon-jquery-plain skill-icon" title="jQuery" aria-hidden="true"></i>
           <p>jQuery</p>
         </li>
         <li class="skill-name">
-          <i
-            class="devicon-react-original skill-icon"
-            title="React"
-            aria-hidden="true"
-          ></i>
+          <i class="devicon-react-original skill-icon" title="React" aria-hidden="true"></i>
           <p>React</p>
         </li>
         <li class="skill-name">
-          <i
-            class="devicon-git-plain skill-icon"
-            title="Git"
-            aria-hidden="true"
-          ></i>
+          <i class="devicon-git-plain skill-icon" title="Git" aria-hidden="true"></i>
           <p>Git</p>
         </li>
         <li class="skill-name">
-          <i
-            class="fas fa-cog"
-            title="REST APIs skill-icon"
-            aria-hidden="true"
-          ></i>
+          <i class="fas fa-cog" title="REST APIs skill-icon" aria-hidden="true"></i>
           <p>REST APIs</p>
         </li>
         <li class="skill-name">
-          <i
-            class="devicon-firebase-plain skill-icon"
-            title="Firebase"
-            aria-hidden="true"
-          ></i>
+          <i class="devicon-firebase-plain skill-icon" title="Firebase" aria-hidden="true"></i>
           <p>Firebase</p>
         </li>
         <li class="skill-name">
-          <i
-            class="fas fa-mobile-alt skill-icon"
-            title="Responsive Design"
-            aria-hidden="true"
-          >
+          <i class="fas fa-mobile-alt skill-icon" title="Responsive Design" aria-hidden="true">
             <p>Responsive Design</p>
           </i>
         </li>
         <li class="skill-name">
-          <i
-            class="fas fa-universal-access skill-icon"
-            title="Accessibility"
-            aria-hidden="true"
-          ></i>
+          <i class="fas fa-universal-access skill-icon" title="Accessibility" aria-hidden="true"></i>
           <p>Accessibility</p>
         </li>
       </ul>
     </div>
-    </section>
+  </section>
 
-    <!-- Projects Section -->
-    <section class="projects" id="projects">
-        <div class="wrapper">
-      
+  <!-- Projects Section -->
+  <section class="projects" id="projects">
+    <div class="wrapper">
+
       <div class="project-container">
         <h2>Projects</h2>
         <div class="project-four-container">
-            <h3>Quick Flick Picker</h3>
+          <h3>Quick Flick Picker</h3>
           <div class="project-four">
-            <p>Project Description: Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima doloremque aliquam veritatis, saepe aliquid et voluptatem, quod molestias ad rem similique expedita architecto omnis cum, culpa provident sed officia laudantium voluptate? Autem facere fugit assumenda, voluptate sunt nesciunt similique exercitationem porro cum dolore odit deserunt, aliquid nam aperiam perspiciatis aliquam.</p>
+            <p>Project Description: Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima doloremque aliquam
+              veritatis, saepe aliquid et voluptatem, quod molestias ad rem similique expedita architecto omnis cum,
+              culpa provident sed officia laudantium voluptate? Autem facere fugit assumenda, voluptate sunt nesciunt
+              similique exercitationem porro cum dolore odit deserunt, aliquid nam aperiam perspiciatis aliquam.</p>
             <div class="project-description">
-                <div class="project-photo">
-                    <img src="./assets/project-four.png" alt="Project four">
-                </div>
-                <div class="skill-button-container">
-            <h4 aria-hidden="true">Skills used</h4>
+              <div class="project-photo">
+                <img src="./assets/project-four.png" alt="Project four">
+              </div>
+              <div class="skill-button-container">
+                <h4 aria-hidden="true">Skills used</h4>
 
-            
-            <ul class="skills-used">
-                <li class="skill-name"><i class="devicon-html5-plain skill-icon" title="HTML5" aria-hidden="true"></i></li>
-                <li class="skill-name"><i class="devicon-sass-original skill-icon" title="SASS" aria-hidden="true"></i></li>
-                <li class="skill-name"><i class="devicon-react-original skill-icon" title="React" aria-hidden="true"></i></li>
-                <li class="skill-name"><i class="devicon-firebase-plain skill-icon" title="Firebase"></i></li>
-                <li class="skill-name"><i class="fas fa-cog skill-icon" title="REST APIs" aria-hidden="true"></i></li>
-            </ul>
-            <div class="project-link">
-                <a href="https://flickpicker.netlify.app/" class="button" target="_blank" aria-label="project four live site">Live Site</a>
-                <a href="https://github.com/AshwinLyleGaryProject4/project4" class="button" target="_blank" aria-label="project four github">Github</a>
+
+                <ul class="skills-used">
+                  <li class="skill-name"><i class="devicon-html5-plain skill-icon" title="HTML5" aria-hidden="true"></i>
+                  </li>
+                  <li class="skill-name"><i class="devicon-sass-original skill-icon" title="SASS"
+                      aria-hidden="true"></i></li>
+                  <li class="skill-name"><i class="devicon-react-original skill-icon" title="React"
+                      aria-hidden="true"></i></li>
+                  <li class="skill-name"><i class="devicon-firebase-plain skill-icon" title="Firebase"></i></li>
+                  <li class="skill-name"><i class="fas fa-cog skill-icon" title="REST APIs" aria-hidden="true"></i></li>
+                </ul>
+                <div class="project-link">
+                  <a href="https://flickpicker.netlify.app/" class="button" target="_blank"
+                    aria-label="project four live site">Live Site</a>
+                  <a href="https://github.com/AshwinLyleGaryProject4/project4" class="button" target="_blank"
+                    aria-label="project four github">Github</a>
+                </div>
+              </div>
             </div>
-            </div>
-        </div>
           </div>
         </div>
 
 
         <div class="project-three-container">
-            <h3>K9Paws</h3>
-            <div class="project-three">
-              
-              <p>Project Description: Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima doloremque aliquam veritatis, saepe aliquid et voluptatem, quod molestias ad rem similique expedita architecto omnis cum, culpa provident sed officia laudantium voluptate? Autem facere fugit assumenda, voluptate sunt nesciunt similique exercitationem porro cum dolore odit deserunt, aliquid nam aperiam perspiciatis aliquam.</p>
-              <div class="project-description">
-              <div class="project-photo" >
+          <h3>K9Paws</h3>
+          <div class="project-three">
+
+            <p>Project Description: Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima doloremque aliquam
+              veritatis, saepe aliquid et voluptatem, quod molestias ad rem similique expedita architecto omnis cum,
+              culpa provident sed officia laudantium voluptate? Autem facere fugit assumenda, voluptate sunt nesciunt
+              similique exercitationem porro cum dolore odit deserunt, aliquid nam aperiam perspiciatis aliquam.</p>
+            <div class="project-description">
+              <div class="project-photo">
                 <img src="./assets/project-three.png" alt="project three">
               </div>
 
               <div class="skill-button-container">
-              <h4 aria-hidden="true">Skills used</h4>
-              <ul class="skills-used">
-                  <li class="skill-name"><i class="devicon-html5-plain skill-icon" title="HTML5" aria-hidden="true"></i></li>
-                  <li class="skill-name"><i class="devicon-sass-original skill-icon" title="SASS" aria-hidden="true"></i></li>
-                  <li class="skill-name"><i class="devicon-react-original skill-icon" title="React" aria-hidden="true"></i></li>
+                <h4 aria-hidden="true">Skills used</h4>
+                <ul class="skills-used">
+                  <li class="skill-name"><i class="devicon-html5-plain skill-icon" title="HTML5" aria-hidden="true"></i>
+                  </li>
+                  <li class="skill-name"><i class="devicon-sass-original skill-icon" title="SASS"
+                      aria-hidden="true"></i></li>
+                  <li class="skill-name"><i class="devicon-react-original skill-icon" title="React"
+                      aria-hidden="true"></i></li>
                   <li class="skill-name"><i class="devicon-firebase-plain skill-icon" title="Firebase"></i></li>
-              </ul>
-           
-              <div class="project-link">
-                  <a href="https://eloquent-wescoff-2d2bcd.netlify.app/" class="button" target="_blank" aria-label="project three live site">Live Site</a>
-                  <a href="https://github.com/k9paws/gary-rosen-project3" class="button" target="_blank" aria-label="project three github">Github</a>
+                </ul>
+
+                <div class="project-link">
+                  <a href="https://eloquent-wescoff-2d2bcd.netlify.app/" class="button" target="_blank"
+                    aria-label="project three live site">Live Site</a>
+                  <a href="https://github.com/k9paws/gary-rosen-project3" class="button" target="_blank"
+                    aria-label="project three github">Github</a>
+                </div>
               </div>
-            </div>
-            </div>
             </div>
           </div>
+        </div>
 
-          <div class="project-two-container">
-            <h3>Covid Tracker</h3>
-            <div class="project-two">
-                <p>Project Description: Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima doloremque aliquam veritatis, saepe aliquid et voluptatem, quod molestias ad rem similique expedita architecto omnis cum, culpa provident sed officia laudantium voluptate? Autem facere fugit assumenda, voluptate sunt nesciunt similique exercitationem porro cum dolore odit deserunt, aliquid nam aperiam perspiciatis aliquam.</p>
-                <div class="project-description">
+        <div class="project-two-container">
+          <h3>Covid Tracker</h3>
+          <div class="project-two">
+            <p>Project Description: Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima doloremque aliquam
+              veritatis, saepe aliquid et voluptatem, quod molestias ad rem similique expedita architecto omnis cum,
+              culpa provident sed officia laudantium voluptate? Autem facere fugit assumenda, voluptate sunt nesciunt
+              similique exercitationem porro cum dolore odit deserunt, aliquid nam aperiam perspiciatis aliquam.</p>
+            <div class="project-description">
               <div class="project-photo">
-                  <img src="./assets/project-two.png" alt="Project two">
+                <img src="./assets/project-two.png" alt="Project two">
               </div>
-              
+
               <div class="skill-button-container">
-              <h4 aria-hidden="true">Skills used</h4>
-              <ul class="skills-used">
-                  <li class="skill-name"><i class="devicon-html5-plain skill-icon" title="HTML5" aria-hidden="true"></i></li>
-                  <li class="skill-name"><i class="devicon-sass-original skill-icon" title="SASS" aria-hidden="true"></i></li>
+                <h4 aria-hidden="true">Skills used</h4>
+                <ul class="skills-used">
+                  <li class="skill-name"><i class="devicon-html5-plain skill-icon" title="HTML5" aria-hidden="true"></i>
+                  </li>
+                  <li class="skill-name"><i class="devicon-sass-original skill-icon" title="SASS"
+                      aria-hidden="true"></i></li>
                   <li class="skill-name"><i class="fas fa-cog skill-icon" title="REST APIs" aria-hidden="true"></i></li>
-              </ul>
-              <div class="project-link">
-                  <a href="https://colin-and-gary-project-2.github.io/covid-tracker/" class="button" target="_blank" aria-label="project two live site">Live Site</a>
-                  <a href="https://github.com/Colin-and-Gary-Project-2/covid-tracker" class="button" target="_blank" aria-label="project two github">Github</a>
+                </ul>
+                <div class="project-link">
+                  <a href="https://colin-and-gary-project-2.github.io/covid-tracker/" class="button" target="_blank"
+                    aria-label="project two live site">Live Site</a>
+                  <a href="https://github.com/Colin-and-Gary-Project-2/covid-tracker" class="button" target="_blank"
+                    aria-label="project two github">Github</a>
+                </div>
               </div>
             </div>
-        </div>
-    </div>
           </div>
+        </div>
 
 
-          <div class="project-one-container">
-            <h3>Boat Ride Adventures</h3>
-            <div class="project-one">
-                <p>Project Description: Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima doloremque aliquam veritatis, saepe aliquid et voluptatem, quod molestias ad rem similique expedita architecto omnis cum, culpa provident sed officia laudantium voluptate? Autem facere fugit assumenda, voluptate sunt nesciunt similique exercitationem porro cum dolore odit deserunt, aliquid nam aperiam perspiciatis aliquam.</p>
-                <div class="project-description">
+        <div class="project-one-container">
+          <h3>Boat Ride Adventures</h3>
+          <div class="project-one">
+            <p>Project Description: Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima doloremque aliquam
+              veritatis, saepe aliquid et voluptatem, quod molestias ad rem similique expedita architecto omnis cum,
+              culpa provident sed officia laudantium voluptate? Autem facere fugit assumenda, voluptate sunt nesciunt
+              similique exercitationem porro cum dolore odit deserunt, aliquid nam aperiam perspiciatis aliquam.</p>
+            <div class="project-description">
               <div class="project-photo">
-                  <img src="./assets/project-one.png" alt="Project one">
+                <img src="./assets/project-one.png" alt="Project one">
               </div>
-              
+
               <div class="skill-button-container">
-              <h4 aria-hidden="true">Skills used</h4>
-              <ul class="skills-used">
-                  <li class="skill-name"><i class="devicon-html5-plain skill-icon" title="HTML5" aria-hidden="true"></i></li>
-                  <li class="skill-name"><i class="devicon-sass-original skill-icon" title="SASS" aria-hidden="true"></i></li>
-              </ul>
-              <div class="project-link">
-                  <a href="https://k9paws.github.io/gary-rosen-project-one/" class="button" target="_blank" aria-label="project one live site">Live Site</a>
-                  <a href="https://github.com/k9paws/gary-rosen-project-one/" class="button" target="_blank" aria-label="project one github">Github</a>
+                <h4 aria-hidden="true">Skills used</h4>
+                <ul class="skills-used">
+                  <li class="skill-name"><i class="devicon-html5-plain skill-icon" title="HTML5" aria-hidden="true"></i>
+                  </li>
+                  <li class="skill-name"><i class="devicon-sass-original skill-icon" title="SASS"
+                      aria-hidden="true"></i></li>
+                </ul>
+                <div class="project-link">
+                  <a href="https://k9paws.github.io/gary-rosen-project-one/" class="button" target="_blank"
+                    aria-label="project one live site">Live Site</a>
+                  <a href="https://github.com/k9paws/gary-rosen-project-one/" class="button" target="_blank"
+                    aria-label="project one github">Github</a>
+                </div>
               </div>
             </div>
+          </div>
         </div>
-    </div>
-</div>
-    </div>
-    </section>
+      </div>
+  </section>
 
-    <!-- Contact Section -->
-    <section class="contact" id="contact">
-        <div class="wrapper">
-            <div class="borderContainer">
-                <div class="border"><h2>Contact Me</h2></div>
-            </div>
-            
-            <p>I would like to have a chat with you!</p>
-            <p>Submit a form below to reach me!</p>
-            
-            <div class="formContainer">
-                <form action="submit" method="POST" class="contact-us" name="contact" data-netlify="true">
-                    <div class="short-input">
-                        <div class="name-input">
-                            <label for="Name" class="sr-only">provide your name</label>
-                            <input type="text" id="name" name="name" placeholder="Your Name">
-                        </div>
-            
-                        <div class="email-input">
-                            <label for="eMail" class="sr-only">provide your Email address</label>
-                            <input type="text" id="eMail" name="eMail" placeholder="Your E-mail">
-                        </div>
-                    </div>
-                    <div class="message-input">
-                        <label for="Message" class="sr-only">provide your message</label>
-                        <textarea id="message" name="message" cols="50" rows="6" placeholder="Message"></textarea>
-                    </div>
-                    <button type="submit" class="button submit-button">Submit</button>
-                </form>
-            </div>
+  <!-- Contact Section -->
+  <section class="contact" id="contact">
+    <div class="wrapper">
+      <div class="borderContainer">
+        <div class="border">
+          <h2>Contact Me</h2>
         </div>
-    </section>
+      </div>
 
-</main>
+      <p>I would like to have a chat with you!</p>
+      <p>Submit a form below to reach me!</p>
 
-<button class="scroll-top button" id="scroll-top" onClick="app.scrollBackTop()"><i class="fas fa-arrow-up"></i></button>
+      <div class="formContainer">
+        <form action="submit" method="POST" class="contact-us" name="contact" data-netlify="true">
+          <div class="short-input">
+            <div class="name-input">
+              <label for="Name" class="sr-only">provide your name</label>
+              <input type="text" id="name" name="name" placeholder="Your Name">
+            </div>
 
-<footer>
-<p>Gary Rosen 2021</p>
-</footer>
+            <div class="email-input">
+              <label for="eMail" class="sr-only">provide your Email address</label>
+              <input type="text" id="eMail" name="eMail" placeholder="Your E-mail">
+            </div>
+          </div>
+          <div class="message-input">
+            <label for="Message" class="sr-only">provide your message</label>
+            <textarea id="message" name="message" cols="50" rows="6" placeholder="Message"></textarea>
+          </div>
+          <button type="submit" class="button submit-button">Submit</button>
+        </form>
+      </div>
+    </div>
+  </section>
 
-    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-    <script src="./script.js"></script>
-  </body>
+  </main>
+
+  <button class="scroll-top button" id="scroll-top" onClick="app.scrollBackTop()"><i
+      class="fas fa-arrow-up"></i></button>
+
+  <footer>
+    <p>Gary Rosen 2021</p>
+  </footer>
+
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script src="./script.js"></script>
+</body>
+
 </html>
