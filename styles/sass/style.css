@@ -417,69 +417,31 @@ p {
 }
 
 h1 {
-  margin-top: 50px;
-  margin-left: 100px;
+  font-family: "Lato", sans-serif;
+  margin-top: 40vh;
   font-size: 4.5rem;
-  width: 50%;
   text-shadow: 4px 4px rgba(0, 0, 0, 0.4);
   color: #fdd908;
+  text-align: center;
 }
 
 h2 {
+  font-family: "Otomanopee One", sans-serif;
+  color: #9ae19d;
   font-weight: 100;
   font-size: 2rem;
-}
-
-/* CUSTOM STYLING */
-html {
-  font-size: 125%;
-}
-
-.wrapper {
-  margin: 0 auto;
-  max-width: 1300px;
-  width: 90%;
-}
-
-a {
-  text-decoration: none;
-}
-
-/* HEADER STYLING */
-header {
-  background-image: url(/assets/background-header-image.jpg);
-  background-size: cover;
-  height: 100vh;
-}
-
-nav a {
-  color: #ffffff;
-  font-weight: bold;
-  letter-spacing: 2px;
-  padding-bottom: 2px;
-}
-
-nav a:hover,
-nav a:focus {
-  border-bottom: 2px solid #fdd908;
-}
-
-.header-navbar ul {
-  display: flex;
-  list-style: none;
-  width: 100%;
-}
-.header-navbar ul li {
-  padding: 80px 30px 0 30px;
-}
-.header-navbar ul li:first-child {
-  padding-left: 0;
+  text-align: center;
+  text-shadow: 4px 4px rgba(0, 0, 0, 0.4);
 }
 
 .about {
   padding-top: 50px;
   padding-bottom: 50px;
   background-color: #9ae19d;
+}
+.about h2 {
+  text-shadow: 2px 2px 2px black;
+  letter-spacing: 2px;
 }
 
 .skill {
@@ -640,6 +602,59 @@ form textarea:focus {
   border: 3px solid transparent;
   border-radius: 5px;
   transition: all 200ms;
+}
+
+/* CUSTOM STYLING */
+html {
+  font-size: 125%;
+}
+
+.wrapper {
+  margin: 0 auto;
+  max-width: 1300px;
+  width: 90%;
+}
+
+a {
+  text-decoration: none;
+  font-family: "Montserrat", sans-serif;
+}
+
+/* HEADER STYLING */
+header {
+  background-image: url(../../assets/background-image.jpg);
+  background-size: cover;
+  height: 100vh;
+}
+
+nav {
+  background: #537a5a;
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  height: 40px;
+  border-bottom: 2px solid #000;
+}
+nav ul {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  width: 100%;
+}
+nav ul li {
+  padding: 5px 40px 0;
+  height: 100%;
+}
+nav ul li:hover {
+  background: #9ae19d;
+  transition-duration: 0.4s;
+}
+nav ul a {
+  color: #ffffff;
+  display: flex;
+  letter-spacing: 2px;
+  padding-bottom: 2px;
+  text-transform: uppercase;
 }
 
 .scroll-top {

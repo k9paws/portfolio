@@ -1,0 +1,40 @@
+// Skills Section
+
+.skill {
+  background-color: $color-three;
+
+  h2 {
+    padding-top: 50px;
+  }
+}
+
+.skill-list {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.skill-name {
+  list-style: none;
+  color: $color-one;
+  text-align: center;
+  margin: 10px auto;
+  padding: 20px;
+  flex-basis: 20%;
+
+  i {
+    font-size: 2rem;
+    color: black;
+  }
+
+  p {
+    color: black;
+    font-weight: 900;
+    font-size: 1rem;
+  }
+}
+
+.skill-name i:hover,
+.skill-name i:focus {
+  color: $color-two;
+  transition: 1s ease;
+}

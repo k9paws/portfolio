@@ -11,17 +11,22 @@ p {
 }
 
 h1 {
-  margin-top: 50px;
-  margin-left: 100px;
+  font-family: $header-font1;
+  margin-top: 40vh;
   font-size: 4.5rem;
-  width: 50%;
+  // width: 50%;
   text-shadow: 4px 4px rgba(0, 0, 0, 0.4);
   color: #fdd908;
+  text-align: center;
 }
 
 
 
 h2 {
+  font-family: $header-font2;
+  color: $color-two;
   font-weight: 100;
   font-size: 2rem;
+  text-align: center;
+    text-shadow: 4px 4px rgba(0, 0, 0, 0.4);
 }

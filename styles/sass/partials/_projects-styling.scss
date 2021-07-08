@@ -1,0 +1,51 @@
+// Project section
+
+.projects {
+  background-color: $color-one;
+
+  h2 {
+    padding-top: 50px;
+  }
+}
+
+.project-photo {
+  margin-bottom: 50px;
+  
+  img {
+    width: 35vw;
+  }
+}
+
+.project-description {
+  display: flex;
+
+  .skill-button-container {
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+  }
+}
+
+.skills-used {
+  display: flex;
+}
+
+.project {
+  display: flex;
+  margin: 100px 2vw;
+  justify-content: space-between;
+}
+
+.project-description p {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.project-link {
+  font-size: 1.25rem;
+  display: flex;
+}
+
+.skill-button-container {
+  margin-left: 50px;
+}
