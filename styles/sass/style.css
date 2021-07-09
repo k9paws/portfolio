@@ -441,8 +441,10 @@ h3 {
   font-size: 1.5rem;
   font-family: "Lato", sans-serif;
   color: #000;
+  font-weight: 800;
   text-transform: uppercase;
   text-shadow: 1px 1px #9ae19d;
+  letter-spacing: 2px;
 }
 
 .about {
@@ -555,28 +557,12 @@ h3 {
   margin: 0 auto;
 }
 
-.short {
-  display: flex;
-  justify-content: space-between;
-  width: 100%;
-}
-
 input,
 textarea {
   width: 100%;
   margin-bottom: 20px;
   padding: 20px;
   border-radius: 20px;
-}
-
-.short1,
-.short2 {
-  width: 48%;
-}
-
-.contactBoxContainer {
-  display: flex;
-  justify-content: space-between;
 }
 
 .form-container {
@@ -656,6 +642,7 @@ nav {
   border-bottom: 2px solid #000;
   position: fixed;
   top: 0;
+  z-index: 100;
 }
 nav ul {
   display: flex;
