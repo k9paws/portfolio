@@ -448,21 +448,21 @@ h3 {
 }
 
 .about {
-  padding-top: 50px;
-  padding-bottom: 50px;
+  padding-bottom: 80px;
   background-color: #537a5a;
 }
 .about h2 {
   text-shadow: 2px 2px 2px black;
   letter-spacing: 2px;
-  padding: 50px 0;
+  padding: 80px 0;
 }
 
 .skill {
   background-color: #909590;
+  padding-bottom: 50px;
 }
 .skill h2 {
-  padding: 50px 0;
+  padding: 80px 0 40px 0;
   text-shadow: 2px 2px 2px black;
 }
 
@@ -556,7 +556,7 @@ h3 {
   padding-bottom: 100px;
 }
 .contact h2 {
-  padding-top: 50px;
+  padding: 50px 0;
   text-shadow: 2px 2px 2px black;
 }
 .contact p {
@@ -660,10 +660,11 @@ nav ul {
 nav ul li {
   padding: 5px 40px;
   height: 100%;
+  transform: 1s ease;
 }
 nav ul li:hover {
   background: #9ae19d;
-  transition-duration: 0.4s;
+  transition-duration: 0.8s;
 }
 nav ul a {
   color: #ffffff;
