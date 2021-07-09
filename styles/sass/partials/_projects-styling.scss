@@ -4,7 +4,7 @@
   background-color: $color-one;
 
   h2 {
-    padding-top: 50px;
+    padding: 50px 0;
   }
 }
 
@@ -22,6 +22,7 @@
   .skill-button-container {
     display: flex;
     flex-direction: column;
+    justify-content: center;
     width: 500px;
   }
 }
@@ -44,6 +45,7 @@
 .project-link {
   font-size: 1.25rem;
   display: flex;
+  padding-bottom: 50px;
 }
 
 .skill-button-container {

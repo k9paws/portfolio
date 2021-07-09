@@ -12,12 +12,13 @@ p {
 
 h1 {
   font-family: $header-font1;
-  margin-top: 40vh;
+  padding-top: 40vh;
   font-size: 4.5rem;
   // width: 50%;
   text-shadow: 4px 4px rgba(0, 0, 0, 0.4);
   color: #fdd908;
   text-align: center;
+  padding-bottom: 30px;
 }
 
 
@@ -28,5 +29,16 @@ h2 {
   font-weight: 100;
   font-size: 2rem;
   text-align: center;
-    text-shadow: 4px 4px rgba(0, 0, 0, 0.4);
+      text-shadow: 2px 2px 2px black;
+      letter-spacing: 3px;
+    // text-shadow: 4px 4px rgba(0, 0, 0, 0.4);
+    text-transform: uppercase;
+}
+
+h3 {
+  font-size: 1.5rem;
+  font-family: $header-font1;
+  color: #000;
+  text-transform: uppercase;
+  text-shadow: 1px 1px $color-two;
 }

@@ -3,12 +3,11 @@
 .about {
   padding-top: 50px;
   padding-bottom: 50px;
-  background-color: $color-two;
+  background-color: $color-one;
 
   h2 {
-    // color: $color-one;
     text-shadow: 2px 2px 2px black;
-    
     letter-spacing: 2px;
+    padding: 50px 0;
   }
 }

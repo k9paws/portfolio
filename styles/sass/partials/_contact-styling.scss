@@ -2,18 +2,23 @@
 //contact section
 
 .contact {
-  background-color: $color-two;
+  background-color: $color-three;
   padding-bottom: 100px;
 
   h2 {
     padding-top: 50px;
+        text-shadow: 2px 2px 2px black;
+  }
+
+  p {
+    width: 50%;
+    margin: 0 auto;
   }
 }
 
 .formContainer {
-  width: 100%;
-  font-size: 1rem;
-  display: block;
+
+
 }
 
 .short {
@@ -24,9 +29,11 @@
 
 input,
 textarea {
+  
   width: 100%;
   margin-bottom: 20px;
-  padding: 10px;
+  padding: 20px;
+  border-radius: 20px;
 }
 
 .short1,
@@ -40,43 +47,17 @@ textarea {
 }
 
 .form-container {
-  margin-top: 100px;
-}
-
-.button {
+    width: 60%;
+  font-size: 1rem;
   display: block;
-  margin: 0 auto;
-  color: black;
-  background-color: $color-two;
-  padding: 10px 30px;
-  border: 3px solid transparent;
-  border-radius: 5px;
-  transition: all 100ms;
-  font-family: "Poppins", sans-serif;
-  box-shadow: 2px 2px black, 4px 4px $color-two;
+
+    margin: 0 auto;
+
 }
 
-.button:hover,
-.button:focus {
-  // border: 3px solid $mainColor;
-  cursor: pointer;
-  background-color: $color-one;
-  color: black;
-}
 
 form input:focus,
 form textarea:focus {
-  border: 5px solid $color-one;
+  border: 3px solid $color-one;
 }
 
-.submit-button {
-  display: block;
-  margin: 0 auto;
-  color: black;
-  background-color: $color-two;
-  padding: 10px 30px;
-  border: 3px solid transparent;
-  border-radius: 5px;
-  transition: all 200ms;
-  // margin-bottom:100px;
-}

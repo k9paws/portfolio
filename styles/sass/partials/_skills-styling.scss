@@ -4,7 +4,8 @@
   background-color: $color-three;
 
   h2 {
-    padding-top: 50px;
+    padding: 50px 0;
+        text-shadow: 2px 2px 2px black;
   }
 }
 
@@ -36,5 +37,5 @@
 .skill-name i:hover,
 .skill-name i:focus {
   color: $color-two;
-  transition: 1s ease;
+  transition: 0.4s ease;
 }
